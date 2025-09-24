@@ -3,6 +3,8 @@ import pandas as pd
 
 app = Flask(__name__)
 
+# Rota principal para upload do arquivo
+
 @app.route('/')
 def index():
     return render_template('index.html')
